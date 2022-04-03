@@ -101,20 +101,26 @@ a:hover {
     background-image: url("assets/img-locations-background.png");
     height: 500px;
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 
     text-align: center;
     display: flex;
+    align-items: center;
+    
+}
+
+#locations-center-div {
+    margin: 0 auto;
+    display: flex;
     flex-direction: column;
     align-content: space-around;
-    
 }
 
 #locations-card-container {
 
     display: flex;
     width: 720;
-    margin: 0 auto;
+    margin: 15px auto 0 auto;
     flex-direction: row;
     justify-content: space-between;
 }
