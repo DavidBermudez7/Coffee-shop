@@ -41,3 +41,20 @@ a {
 a:hover {
     text-decoration: underline;
 }
+footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footer-main-text-div {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+#footer-main-text-div h2, #footer-main-text-div h5 {
+    min-width: 1200px;
+    text-align: center;
+}
